@@ -1,0 +1,19 @@
+{
+  "name": "training_archi_tp_eventbus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "emit": "node ./emitter.js",
+    "agent": "node ./agent.js",
+    "sms": "node ./agent_sms_notifier.js",
+    "email": "node ./agent_mail_notifier.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "uuid": "^8.3.2"
+  }
+}
